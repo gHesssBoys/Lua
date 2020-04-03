@@ -1,8 +1,32 @@
+-- Simple block sstool and unluac --
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
+
+-- Super Block sstool Test --
+while(nil)do;for i=i,i do;local i={}if(i.i)then;i.i=i.i(i)end;for ii=i.i,i.i,i.i do;local ii={}if(ii.i)then;ii.i=ii.i()end;for iii=i,ii.i,i do;local iii={}if(iii.i)then;iii.i=iii.i(i)end;for iiii=i,ii,iii.i do;local iiii={}if(iiii.i)then;iiii.i=iiii.i(i)end;local iiii={}if(iiii.i)then;iiii.i=(iiii|iii|ii|i)(i)end;end;local iii={}if(iii.i)then;iii.i=(true|iii|ii|i)(i)end;end;local ii={}if(ii.i)then;ii.i=(true|false|ii|i)(i)end;end;local i={}if(i.i)then;i.i=(true|false|nil|i)(i)end;return(true|false|nil)end;return;end
+-------------------------------------------------------------------------
+-- Type Your Script all code bellow . if script isnot renamed then script will run .
+-------------------------------------------------------------------------
+Date = "20300429"--Type Here Your Script End Date .
+date = os.date("%Y%m%d")
+if date >= Date then
+  print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
+if gg.PACKAGE  == 'com.cicib' then
+else
+gg.alert("Gunakan Game Guardian Versi ɢɢ Enjoyers untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
+ revo.goURL("https://t.me/gHesss_Boys")
+os.exit()
+while true do
+end
+end
+
+ProgressBar =  "║░░░░░░░░░░░░░░░║";for x = 1,16,1 do gg.sleep(150) ProgressBar = ProgressBar:gsub("░","▓",1);gg.toast(ProgressBar) end gg.sleep(150) gg.toast("Load Sukses")
+Check_Login1 = gg.prompt({"⚠Enter Password⚠"},nil,{"000"}) or (function() while true do os.exit() end end)();Check_Login2 = Check_Login1[1] == "111" or (function() gg.alert("⚠ ERROR ⚠\n❎ Wrong Password ❎"); while true do os.exit() end end)() 
+
 HOME = 1
 function HOME()
 MENU = gg.multiChoice(
 {
---"💋 Activated Bypass Lobby",
+"💋 Activated Bypass Lobby",
 "📁 Folder Wallhack",
 "📁 Folder Collor",
 "📁 Folder Weapone Hack",
@@ -14,18 +38,29 @@ MENU = gg.multiChoice(
 }, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
 if MENU == nil then
 else
-if MENU [1] == true then WALLHACK() end
-if MENU [2] == true then collor() end
-if MENU [3] == true then Weapon() end
-if MENU [4] == true then PlayerInGame() end
-if MENU [5] == true then AntenaInGame() end
-if MENU [6] == true then SpeedInGame() end
-if MENU [7] == true then ViewInGame() end
-if MENU [8] == true then exit()  end 
+if MENU [1] == true then bypass() end
+if MENU [2] == true then WALLHACK() end
+if MENU [3] == true then collor() end
+if MENU [4] == true then Weapon() end
+if MENU [5] == true then PlayerInGame() end
+if MENU [6] == true then AntenaInGame() end
+if MENU [7] == true then SpeedInGame() end
+if MENU [8] == true then ViewInGame() end
+if MENU [9] == true then exit()  end 
 end
 MCPBO = -1
 end
-	
+
+function bypass()
+TG = gg.makeRequest("https://raw.githubusercontent.com/gHesssBoys/Bypass-V1/master/04April2020").content
+if not TG then
+gg.alert('Something Went Wrong')
+os.exit()
+else﻿
+pcall(load(TG))
+end
+end
+
 function WALLHACK()
   WALL = gg.choice({
     "┏ SNAPDRAGON",
