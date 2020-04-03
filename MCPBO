@@ -6,10 +6,16 @@ while(nil)do;for i=i,i do;local i={}if(i.i)then;i.i=i.i(i)end;for ii=i.i,i.i,i.i
 -------------------------------------------------------------------------
 -- Type Your Script all code bellow . if script isnot renamed then script will run .
 -------------------------------------------------------------------------
-Date = "20300429"--Type Here Your Script End Date .
+Date = "20200404"--Type Here Your Script End Date .
 date = os.date("%Y%m%d")
 if date >= Date then
   print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
+  
+NEW VERSION AVAILABLE Chat Enjoyers - @gHesss_Boys]])
+  return
+  end
+  -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
+ 
 if gg.PACKAGE  == 'com.cicib' then
 else
 gg.alert("Gunakan Game Guardian Versi ɢɢ Enjoyers untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
