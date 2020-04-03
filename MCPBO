@@ -15,7 +15,6 @@ NEW VERSION AVAILABLE Chat Enjoyers - @gHesss_Boys]])
   return
   end
   -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
- 
 if gg.PACKAGE  == 'com.cicib' then
 else
 gg.alert("Gunakan Game Guardian Versi ɢɢ Enjoyers untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
