@@ -46,13 +46,11 @@ MCPBO = -1
 end
 
 function bypass()
-TG = gg.makeRequest("https://raw.githubusercontent.com/gHesssBoys/Bypass-V1/master/04April2020").content
-if not TG then
-gg.alert('Something Went Wrong')
-os.exit()
-else﻿
-pcall(load(TG))
+local PBO = gg.makeRequest("https://raw.githubusercontent.com/gHesssBoys/Bypass-V1/master/04April2020").content
+if PBO == nil then
+os.exit() 
 end
+pcall(load(PBO))
 end
 
 function WALLHACK()
