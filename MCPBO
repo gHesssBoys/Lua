@@ -91,10 +91,10 @@ gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       })
             gg.addListItems({
         [1] = {
-          address = results[x].address - 72,
+          address = results[x].address + 48,
           flags = 4,
           freeze = true,
-          value = 70086
+          value = 119
         }
       })
       gg.addListItems({
