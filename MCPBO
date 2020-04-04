@@ -4,7 +4,7 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
 -- Super Block sstool Test --
 while(nil)do;for i=i,i do;local i={}if(i.i)then;i.i=i.i(i)end;for ii=i.i,i.i,i.i do;local ii={}if(ii.i)then;ii.i=ii.i()end;for iii=i,ii.i,i do;local iii={}if(iii.i)then;iii.i=iii.i(i)end;for iiii=i,ii,iii.i do;local iiii={}if(iiii.i)then;iiii.i=iiii.i(i)end;local iiii={}if(iiii.i)then;iiii.i=(iiii|iii|ii|i)(i)end;end;local iii={}if(iii.i)then;iii.i=(true|iii|ii|i)(i)end;end;local ii={}if(ii.i)then;ii.i=(true|false|ii|i)(i)end;end;local i={}if(i.i)then;i.i=(true|false|nil|i)(i)end;return(true|false|nil)end;return;end
 ------------------------------------------------------------------------- 
-if gg.PACKAGE  == 'com.cicib' then
+if gg.PACKAGE  == 'com.hirjhvc.na.bknpblk' then
 else
 gg.alert("Gunakan Game Guardian Versi ɢɢ Enjoyers untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
  revo.goURL("https://t.me/gHesss_Boys")
