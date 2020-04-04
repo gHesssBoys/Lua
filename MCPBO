@@ -20,7 +20,7 @@ HOME = 1
 function HOME()
 MENU = gg.multiChoice(
 {
---"💋 Activated Bypass Lobby",
+"💋 Activated Bypass Lobby",
 "📁 Folder Wallhack",
 "📁 Folder Collor",
 "📁 Folder Weapone Hack",
@@ -32,19 +32,148 @@ MENU = gg.multiChoice(
 }, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
 if MENU == nil then
 else
---if MENU [1] == true then bypass() end
-if MENU [1] == true then WALLHACK() end
-if MENU [2] == true then collor() end
-if MENU [3] == true then Weapon() end
-if MENU [4] == true then PlayerInGame() end
-if MENU [5] == true then AntenaInGame() end
-if MENU [6] == true then SpeedInGame() end
-if MENU [7] == true then ViewInGame() end
-if MENU [8] == true then exit()  end 
+if MENU [1] == true then bypass() end
+if MENU [2] == true then WALLHACK() end
+if MENU [3] == true then collor() end
+if MENU [4] == true then Weapon() end
+if MENU [5] == true then PlayerInGame() end
+if MENU [6] == true then AntenaInGame() end
+if MENU [7] == true then SpeedInGame() end
+if MENU [8] == true then ViewInGame() end
+if MENU [9] == true then exit()  end 
 end
 MCPBO = -1
 end
 
+function bypass()
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() == 0 then
+    gg.alert('ᴀɴᴛɪ-ʙᴀɴ ɴᴏᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ')
+gg.alert('Try Again Or Restart ɢᴀᴍᴇ')
+  else
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+   resultsCount = gg.getResultCount()
+    results = gg.getResults(resultsCount)
+    for x = 1, resultsCount do    
+      gg.addListItems({            
+        [1] = {
+          address = results[x].address - 252,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })      
+      gg.addListItems({
+        [1] = {
+          address = results[x].address - 236,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[x].address - 232,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[x].address - 72,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+            gg.addListItems({
+        [1] = {
+          address = results[x].address - 72,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[x].address - 68,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[x].address - 64,
+              flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[x].address + 64,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+  gg.addListItems({
+        [1] = {
+          address = results[x].address + 68,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[x].address + 100,
+          flags = 4,
+          freeze = true,
+          value = 4451
+        }
+      })     
+       gg.addListItems({
+        [1] = {
+          address = results[x].address + 512,
+          flags = 4,
+          freeze = true,
+          value = 0
+        }
+      })
+        gg.addListItems({
+        [1] = {
+          address = results[x].address + 540,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+         gg.addListItems({
+        [1] = {
+          address = results[x].address + 544,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+          gg.addListItems({
+        [1] = {
+          address = results[x].address + 548,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.alert('ᴀɴᴛɪ-ʙᴀɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ!')
+    end
+  end 
+end
+    
 function WALLHACK()
   WALL = gg.choice({
     "┏ SNAPDRAGON",
