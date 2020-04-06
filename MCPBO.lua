@@ -9,7 +9,7 @@ function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplit
 -------------------------------------------------------------------------
 TT("MCPBO™ - @gHesss_Boys")
 ------------------------------------------------------------------------- 
-if gg.PACKAGE  == 'com.bbksb.vdjw' then 
+if gg.PACKAGE  == 'com.bbksb.vdjw' then
 else
 gg.alert("Gunakan Game Guardian Versi ɢɢ MCPBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
  revo.goURL("https://t.me/gHesss_Boys")
@@ -27,7 +27,7 @@ function HOME()
 MENU = gg.multiChoice(
 {
 "📁 Folder Wallhack",
-"📁 Folder Collor",
+"📁 Folder Body Collor",
 "📁 Folder Weapone Hack",
 "📁 Folder Player Hack",
 "📁 Folder Antena Player",
@@ -38,7 +38,7 @@ MENU = gg.multiChoice(
 if MENU == nil then
 else
 if MENU [1] == true then WALLHACK() end
-if MENU [2] == true then collor() end
+if MENU [2] == true then COLLOR() end
 if MENU [3] == true then Weapon() end
 if MENU [4] == true then PlayerInGame() end
 if MENU [5] == true then AntenaInGame() end
@@ -692,7 +692,28 @@ function WHFIX9810()
   gg.setVisible(true)
 end
 
-function collor()
+function COLLOR()
+  BC = gg.choice({
+    "┏ COLLOR SNAPDRAGON",
+    "┏ COLLOR EXYNOS",
+    "☑BACK"
+  }, nil, "COLLOR PLAYERS")
+  if BC == nil then
+  else
+    if BC == 1 then
+      CSNAP()
+    end
+    if BC == 2 then
+      CEXY()
+    end
+    if BC == 3 then
+      HOME()
+    end
+  end
+  MCPBO = -1
+end
+
+function CSNAP()
   MCPBOCLR = gg.choice({
     "❤RED",
     "💚GREEN",
@@ -702,7 +723,7 @@ function collor()
     "💖RAINBOW",
     "⚪WHITE",
     "☑BACK"
-  }, nil, "COLLOR")
+  }, nil, "COLLOR SNAPDRAGON")
   if MCPBOCLR == nil then
   else
     if MCPBOCLR == 1 then
@@ -795,6 +816,145 @@ function WHITE()
   gg.editAll("4", 4)
   gg.clearResults()
   gg.toast("WHITE")
+end
+
+function CEXY()
+  Cexynos1 = gg.multiChoice({
+    "🐝 Pink",
+    "🐝 Green",
+    "🐝 White",
+    "🐝 Yellow",
+    "🐝 Red Mix",
+    "🐝 Red Flash",
+    "🐝 Red Exynos 7870",
+    "🐝 Yellow Exynos 7870",
+    "🐝 Red Exynos 8890",
+    "[ BACK ]"
+  }, nil, "COLLOR EXYNOS")
+  if Cexynos1 == nil then
+  else
+    if Cexynos1[1] == true then
+      exy1()
+    end
+    if Cexynos1[2] == true then
+      exy2()
+    end
+    if Cexynos1[3] == true then
+      exy3()
+    end
+    if Cexynos1[4] == true then
+      exy4()
+    end
+    if Cexynos1[5] == true then
+      exy5()
+    end
+    if Cexynos1[6] == true then
+      exy6()
+    end
+    if Cexynos1[7] == true then
+      exy7()
+    end
+    if Cexynos1[8] == true then
+      exy8()
+    end
+    if Cexynos1[9] == true then
+      exy9()
+    end
+    if Cexynos1[10] == true then
+      WH()
+    end
+  end
+  MCPBO = -1
+end
+
+function exy1()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("56;64;3:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("38", gg.TYPE_DWORD)
+  gg.toast("Exynos Pink Active ")
+end
+
+function exy2()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.setRanges(4)
+  gg.searchNumber("40D;32D;16D;2D::53", 4, false, 536870912, 0, -1)
+  gg.refineNumber("40", 4, false, 536870912, 0, -1)
+  gg.getResults(4)
+  gg.editAll("35", 4)
+  gg.toast("Exynos Green Active ")
+end
+function exy3()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Exynos White Active ")
+end
+function exy4()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.setRanges(4)
+  gg.searchNumber("40D;32D;16D;2D::53", 4, false, 536870912, 0, -1)
+  gg.refineNumber("40", 4, false, 536870912, 0, -1)
+  gg.getResults(4)
+  gg.editAll("36", 4)
+  gg.toast("Exynos Yellow Active")
+end
+function exy5()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("24;802824704;32;2::21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("19", gg.TYPE_DWORD)
+  gg.toast("Red Mix Active")
+end
+function exy6()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("24;802824704;32;2::21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("22", gg.TYPE_DWORD)
+  gg.toast("Red Flash Exynos Active")
+end
+function exy7()
+  gg.processResume()
+  gg.processResume()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("24;802824704;32;2::21", 4, false, 536870912, 0, -1)
+  gg.refineNumber("\"24\"", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("\"22\"", gg.TYPE_DWORD)
+  gg.processResume()
+  gg.toast("Exynos 7870 Red Active")
+end
+function exy8()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("232;80;6;160;88;6;128;4", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("88", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(25)
+  gg.editAll("89", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Exynos 7870 Yellow Active")
+end
+function exy9()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.clearResults()
+  gg.searchNumber("224D;128D;224D;14D;40D;64D;64D;12D;140D;16D;156D;32D;168D:533", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.processResume()
+  gg.refineNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(786)
+  gg.editAll("40;102", gg.TYPE_DWORD)
+  gg.toast("Exynos 8890 Red Active")
 end
 
 function Weapon()
