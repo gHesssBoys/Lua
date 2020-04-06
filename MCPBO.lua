@@ -820,9 +820,9 @@ end
 
 function CEXY()
   Cexynos1 = gg.multiChoice({
-    "🐝 Pink",
-    "🐝 Green",
-    "🐝 White",
+    "🐝 BC Red",
+    "🐝 BC Green",
+    "🐝 BC Yellow",
     "🐝 Yellow",
     "🐝 Red Mix",
     "🐝 Red Flash",
@@ -888,13 +888,13 @@ function exy2()
 end
 function exy3()
   gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("Exynos White Active ")
+  gg.setRanges(4)
+  gg.setRanges(4)
+  gg.searchNumber("40D;32D;16D;2D::53", 4, false, 536870912, 0, -1)
+  gg.refineNumber("40", 4, false, 536870912, 0, -1)
+  gg.getResults(4)
+  gg.editAll("36", 4)
+  gg.toast("Exynos Yelow Active ")
 end
 function exy4()
   gg.clearResults()
