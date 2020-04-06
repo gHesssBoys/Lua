@@ -9,7 +9,7 @@ function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplit
 -------------------------------------------------------------------------
 TT("MCPBO™ - @gHesss_Boys")
 ------------------------------------------------------------------------- 
-if gg.PACKAGE  == 'com.erxjs' then
+if gg.PACKAGE  == 'com.bbksb.vdjw' then 
 else
 gg.alert("Gunakan Game Guardian Versi ɢɢ MCPBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
  revo.goURL("https://t.me/gHesss_Boys")
