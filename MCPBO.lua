@@ -861,7 +861,7 @@ function CEXY()
       exy9()
     end
     if Cexynos1[10] == true then
-      WH()
+      HOME()
     end
   end
   MCPBO = -1
