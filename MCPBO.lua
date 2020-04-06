@@ -864,7 +864,6 @@ function CEXY()
       HOME()
     end
   end
-  MCPBO = -1
 end
 
 function exy1()
