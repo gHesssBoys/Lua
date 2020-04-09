@@ -9,6 +9,49 @@ function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplit
 -------------------------------------------------------------------------
 TT("MCPBO™ - @gHesss_Boys")
 ------------------------------------------------------------------------- 
+Date = "20400425"
+date = os.date("%Y%m%d")
+if date >= Date then
+  print(" ⚠️Time Script is over ⚠️ ||  Vissite : https://t.me/gHesss_Boys ")
+  return
+end
+log = {}
+for i = 1, 40000 do
+table.insert(log, {address = 127 + i, flags = 12, values = 127})
+end
+clock = os.clock()
+time = os.time()
+for i = 1, 6 do gg.addListItems(log) end
+if os.clock() - clock > 2 then
+gg.removeListItems(log)
+gg.alert("No Log")
+if os.time() - time > 2 then
+gg.removeListItems(log)
+gg.alert("No Log")
+gg.removeListItems(log)
+os.exit()
+end
+end
+if gg.isPackageInstalled("sstool.only.com.sstool") then
+  print("⛔ Hey... Fuckers!!!! Please Uninstall SSTool ⛔")
+  os.exit()
+end
+if gg.isPackageInstalled("ssnesiatool.wtkc.kbgsh") then
+  print("⛔ Hey... Fuckers!!!! Please Uninstall SSTool ⛔")
+  os.exit()
+end
+if gg.isPackageInstalled("ssnesiatool.wtkc.kbgsh") then
+  print("⛔ Hey... Fuckers!!!! Please Uninstall SSTool ⛔")
+  os.exit()
+end
+if gg.getTargetPackage() == 'com.tencent.ig' or gg.getTargetPackage() == 'com.rekoo.pubgm' or gg.getTargetPackage() == 'com.tencent.tmgp.pubgmhd' or gg.getTargetPackage() == 'com.pubg.krmobile' or gg.getTargetPackage() == 'com.vng.pubgmobile' or gg.getTargetPackage() == 'com.tencent.iglite' then
+    gg.clearResults()
+  else
+    print('You are not running PUBG MOBILE')
+    os.exit()
+  end
+  gg.require('93.0')
+
 if gg.PACKAGE  == 'com.bbksb.vdjw' then
 else
 gg.alert("Gunakan Game Guardian Versi ɢɢ MCPBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
