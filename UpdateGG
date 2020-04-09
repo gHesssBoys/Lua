@@ -1,0 +1,118 @@
+function updater()
+
+
+os.remove("/storage/emulated/0/Decrypt.lua")
+os.remove("/storage/emulated/0/Revo.lua")
+os.remove("/storage/emulated/0/мм²⁵¹²༒Hσσк Dєтє¢тє")
+os.remove("/storage/emulated/0/мм²⁵¹²༒Hσσк Dєтє¢тє.lua")
+os.remove("/storage/emulated/0/MM2512")
+os.remove("/storage/emulated/0/MM2512.lua")
+os.remove("/storage/emulated/0/мм²⁵¹²༒.lua")
+os.remove("/storage/emulated/0/мм²⁵¹²༒")
+os.remove("/storage/emulated/0/Mayimi")
+os.remove("/storage/emulated/0/Ƭ𝔦ន ղ𝖖մƴҽɳ")
+os.remove("/storage/emulated/0/Ƭ𝔦ន ղ𝖖մƴҽɳ.lua")
+os.remove("/storage/emulated/0/ᴍᴜʜᴀᴍᴀᴅɢᴀᴍᴇʀ.ʟᴜᴀ")
+os.remove("/storage/emulated/0/Dec By Mr Joker.Lua")
+os.remove("/storage/emulated/0/MrVinYT")
+os.remove("/storage/emulated/0/[SSDECOMP]1.lua")
+os.remove("/storage/emulated/0/[SSDECOMP].lua")
+os.remove("/storage/emulated/0/SSDECOMP1LE")
+os.remove("/storage/emulated/0/[SSDECOMP]MSecurity.MM.lua")
+os.remove("/storage/emulated/0/Download/Decrypt.lua")
+os.remove("/storage/emulated/0/Download/Revo.lua")
+os.remove("/storage/emulated/0/Download/мм²⁵¹²༒Hσσк Dєтє¢тє")
+os.remove("/storage/emulated/0/Download/мм²⁵¹²༒Hσσк Dєтє¢тє.lua")
+os.remove("/storage/emulated/0/Download/MM2512")
+os.remove("/storage/emulated/0/Download/MM2512.lua")
+os.remove("/storage/emulated/0/Download/мм²⁵¹²༒.lua")
+os.remove("/storage/emulated/0/Download/мм²⁵¹²༒")
+os.remove("/storage/emulated/0/Download/Mayimi")
+os.remove("/storage/emulated/0/Download/Ƭ𝔦ន ղ𝖖մƴҽɳ")
+os.remove("/storage/emulated/0/Download/Ƭ𝔦ន ղ𝖖մƴҽɳ.lua")
+os.remove("/storage/emulated/0/Download/ᴍᴜʜᴀᴍᴀᴅɢᴀᴍᴇʀ.ʟᴜᴀ")
+os.remove("/storage/emulated/0/Download/Dec By Mr Joker.Lua")
+os.remove("/storage/emulated/0/Download/MrVinYT")
+os.remove("/storage/emulated/0/Download/[SSDECOMP]1.lua")
+os.remove("/storage/emulated/0/Download/[SSDECOMP].lua")
+os.remove("/storage/emulated/0/Download/SSDECOMP1LE")
+os.remove("/storage/emulated/0/Download/[SSDECOMP]MSecurity.MM.lua")
+os.remove("/storage/emulated/0/Download/SSDECOMP1LE")
+os.remove("/storage/emulated/0/Compiler.lua")
+os.remove("/storage/emulated/0/Download/Compiler.lua")
+os.remove("/storage/emulated/0/Tencent")
+os.remove("/storage/emulated/0/SSDECOMP")
+os.remove("/storage/emulated/0/SSDECOMP1LE")
+os.remove("/storage/emulated/0/MrVinYT")
+os.remove("/storage/emulated/0/Mayimi")
+os.remove("/storage/emulated/0/Decrypt")
+os.remove("/storage/emulated/0/Revo Logger")
+os.remove("/storage/emulated/0/Revo 6 Logger")
+os.remove("/storage/emulated/0/QQ")
+os.remove("/storage/emulated/0/tencent")
+
+
+
+  
+
+
+
+print('💥CREATED BY: t.me/gHesss_Boys💥\n\n\n\')
+  Latest=94.0
+kilatest=tonumber(Latest)
+	if string.len(gg.VERSION) > 5 then
+            saisai=gg.VERSION:sub(1,-3)
+            saisai=tonumber(saisai)
+            else
+               saisai=tonumber(gg.VERSION)
+          end
+if kilatest>saisai then
+  bory=gg.alert('⬆️New updated & optimized version of game guardian found on Telegram : t.me/gHesss_Boys ⬆️\n\nYou are using an old version of game guardian   V ['..saisai..']  an update to  V ['..kilatest..']  is highly recommended \n\nTo ensure all features of this script work properly please update to the latest version of game guardian\n\nYou can always download the latest version of game guardian from \n\n[ https://t.me/gHesss_Boys ] ','Copy direct download link',nil,'Skip')
+  if bory==1 then
+    gg.copyText('https://t.me/gHesss_Boys')
+    gg.alert('Direct download link has been succesfully copied to clipboard open your browser, paste and search the link to be taken to the direct download page')
+    os.exit()
+    end
+  end
+local open = io.open 
+local function read_file(path) 
+local file = open(path, "rb")
+ if not file then return nil end 
+local content = file:read 
+"*a"
+file:close()
+return content 
+ end 
+
+
+
+zaText  = read_file(gg.EXT_STORAGE.."/gameguardianlgi.png")
+local check = zaText
+uzanum=tonumber(check)
+if uzanum==nil then
+  anzax=os.time()
+  local file = io.open(gg.EXT_STORAGE.."/gameguardianlgi.png", "w")
+file:write(anzax)
+file:close()
+end
+
+
+
+if uzanum ~= nil then
+  malizwa=(uzanum+432000)
+  sahizi=os.time()
+  if sahizi>malizwa then
+nekwiz=gg.alert('💎💎💎💎IMPORTANT UPDATE FOUND💎💎💎💎\n\nA new version of this script has been released at https://t.me/gHesss_Boys an update is highly recommended to avoid hacking detection by the game which may result to ban of your account.Please update this script immediately\n\nTo update copy the direct download link below and open it from your browser\n\nWhats new\n\n💎Script updated to avoid detection by the game\n\n💎Features updated and optimized to work faster\n\n💎Fixed bugs \n\n💎Increased stability for non-root users \n\n💎Updated to support all virtual spaces \n\nTHIS UPDATE IS HIGHLY RECOMMENDED UPDATE NOW!!','Copy direct download link')
+    if nekwiz==1 then
+       os.remove(gg.EXT_STORAGE.."/gameguardianlgi.png")
+      gg.copyText(Downloadlink)
+      gg.alert('Direct download link has been succesfully copied to clipboard open your browser, paste and search the link to be taken to the direct download page')
+      print('Direct download link has been succesfully copied to your clipboard open your browser, paste and search the link to be taken to the direct download page')
+    end
+   os.exit()
+    
+    end
+end
+end
+  
+updater()
