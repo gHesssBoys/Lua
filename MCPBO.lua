@@ -71,8 +71,8 @@ end
 
 function WALLHACK()
   WALL = gg.choice({
-    "┏ SNAPDRAGON",
-    "┏ EXYNOS",
+    "┏◌ SNAPDRAGON",
+    "┏◌ EXYNOS",
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WALL == nil then
@@ -92,18 +92,18 @@ end
 	
 function SNAPDRAGON()
   WHSnap = gg.choice({
-    "┏ Wallhack All Device",
-    "┏ Wallhack SD 450",
-    "┏ Wallhack SD 615",
-    "┏ Wallhack SD 625",
-    "┏ Wallhack SD 626",
-    "┏ Wallhack SD 636",
-    "┏ Wallhack SD 650",
-    "┏ Wallhack SD 660",
-    "┏ Wallhack SD 670",
-    "┏ Wallhack SD 710",
-    "┏ Wallhack SD 845",
-    "┏ Wallhack SD 855",
+    "┏◌ Wallhack All Device",
+    "┏◌ Wallhack SD 450",
+    "┏◌ Wallhack SD 615",
+    "┏◌ Wallhack SD 625",
+    "┏◌ Wallhack SD 626",
+    "┏◌ Wallhack SD 636",
+    "┏◌ Wallhack SD 650",
+    "┏◌ Wallhack SD 660",
+    "┏◌ Wallhack SD 670",
+    "┏◌ Wallhack SD 710",
+    "┏◌ Wallhack SD 845",
+    "┏◌ Wallhack SD 855",
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHSnap == nil then
@@ -379,14 +379,14 @@ end
 
 function EXYNOSS()
   WHMCPBO = gg.choice({
-	"┏ Wallhack Exynos 7420",
-    "┏ Wallhack Exynos 7570",
-    "┏ Wallhack Exynos 7870",
-    "┏ Wallhack Exynos 7885",
-    "┏ Wallhack Exynos 8890",
-    "┏ Wallhack Exynos 8895",
-    "┏ Wallhack Exynos 9610",
-    "┏ Wallhack Exynos 9810",		
+	"┏◌ Wallhack Exynos 7420",
+    "┏◌ Wallhack Exynos 7570",
+    "┏◌ Wallhack Exynos 7870",
+    "┏◌ Wallhack Exynos 7885",
+    "┏◌ Wallhack Exynos 8890",
+    "┏◌ Wallhack Exynos 8895",
+    "┏◌ Wallhack Exynos 9610",
+    "┏◌ Wallhack Exynos 9810",		
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHMCPBO == nil then
@@ -714,8 +714,8 @@ end
 
 function COLLOR()
   BC = gg.choice({
-    "┏ COLLOR SNAPDRAGON",
-    "┏ COLLOR EXYNOS",
+    "┏◌ COLLOR SNAPDRAGON",
+    "┏◌ COLLOR EXYNOS",
     "☑BACK"
   }, nil, "COLLOR PLAYERS")
   if BC == nil then
@@ -735,13 +735,13 @@ end
 
 function CSNAP()
   MCPBOCLR = gg.choice({
-    "❤RED",
-    "💚GREEN",
-    "💛YELLOW",
-    "💛YELLOW SD 845",
-    "💙BLUE",
-    "💖RAINBOW",
-    "⚪WHITE",
+    "┏◌ RED",
+    "┏◌ GREEN",
+    "┏◌ YELLOW",
+    "┏◌ YELLOW SD 845",
+    "┏◌ BLUE",
+    "┏◌ RAINBOW",
+    "┏◌ WHITE",
     "☑BACK"
   }, nil, "COLLOR SNAPDRAGON")
   if MCPBOCLR == nil then
@@ -895,7 +895,6 @@ function exy1()
   gg.editAll("38", gg.TYPE_DWORD)
   gg.toast("Exynos Pink Active ")
 end
-
 function exy2()
   gg.clearResults()
   gg.setRanges(4)
@@ -978,17 +977,17 @@ end
 
 function Weapon()
   MCWeapon = gg.multiChoice({
-    "┏ Less Recoil [Loby]",
-    "┏ No Recoil [Loby]",
-	"┏ AimLock [Loby]",
-	"┏ Aimbot [Game]",
-	"┏ HS 50% [Land]",
-    "┏ HS 70% [Land]",
-	"┏ MB - HS Brutal [Land]",
-	"┏ Collab ESP-AIMLock [Land - Traine]",
-	"┏ ESP Players [Land - Traine]",
-	"┏ Damage++ [Game]",
-    "┏ Menu HeadShot Beta [Land]",	
+    "┏◌ Less Recoil [Loby]",
+    "┏◌ No Recoil [Loby]",
+	"┏◌ AimLock [Loby]",
+	"┏◌ Aimbot [Game]",
+	"┏◌ HS 50% [Land]",
+    "┏◌ HS 70% [Land]",
+	"┏◌ MB - HS Brutal [Land]",
+	"┏◌ Collab ESP-AIMLock [Land - Traine]",
+	"┏◌ ESP Players [Land - Traine]",
+	"┏◌ Damage++ [Game]",
+    "┏◌ Menu HeadShot Beta [Land]",	
     "☑BACK"
   }, nil, "Weapone Players ")
 if MCWeapon == nil then
@@ -1308,10 +1307,10 @@ end
 
 function HSWepone()
   MCHS = gg.multiChoice({
-    "┏ Beta HS 30% [Land]",
-	"┏ Beta HS 50% [Land]",
-    "┏ Beta HS 75% [Land]",
-	"┏ Beta MB - HS Brutal [Land]",
+    "┏◌ Beta HS 30% [Land]",
+	"┏◌ Beta HS 50% [Land]",
+    "┏◌ Beta HS 75% [Land]",
+	"┏◌ Beta MB - HS Brutal [Land]",
     "☑BACK"
   }, nil, "AUTO HEADSHOT")
 if MCHS == nil then
@@ -1401,9 +1400,10 @@ end
 
 function PlayerInGame()
   MCPlayer = gg.choice({
-    "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
-    "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
-	"┏ Fast Parasute[Land]",	
+    "┏◌ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
+    "┏◌ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
+	"┏◌ Fast Parasute[Land]",	
+	"┏◌ Fast Landing[Land]",
     "☑BACK"
   }, nil, "Hack Players")
   if MCPlayer == nil then
@@ -1418,6 +1418,9 @@ function PlayerInGame()
       FASTPARA()
 	end
     if MCPlayer == 4 then
+      FASTLAND()
+	end	
+    if MCPlayer == 5 then
       HOME()
     end
   end
@@ -1448,8 +1451,18 @@ function SITSCOPEOFF()
   gg.clearResults()
   gg.toast("Sit Scope Deactivated!")
 end
-
 function FASTPARA()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("200;200;1;1::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.getResults(21)
+  gg.editAll("4412", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Fast Parasute activated!")
+end
+function FASTLAND()
   gg.clearResults()
   gg.setRanges(gg.REGION_C_BSS)
   gg.searchNumber("2048D;4D;1F;1F;1D:30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1459,13 +1472,13 @@ function FASTPARA()
   gg.getResults(6284)
   gg.editAll("999999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Fast Parachute activated!")
+  gg.toast("Fast Landing activated!")
 end
 
 function AntenaInGame()
   MCAntena = gg.choice({
-    "┏ Antena Player [Game]",
-    "┏ Antena Ghillie [Game]",
+    "┏◌ Antena Player [Game]",
+    "┏◌ Antena Ghillie [Game]",
     "☑BACK"
   }, nil, "Antena Players")
   if MCAntena == nil then
@@ -1504,14 +1517,14 @@ end
 
 function SpeedInGame()
   MCSpeed = gg.multiChoice({
-    "┏ Speed Player Micro",
-    "┏ Speed Players Flash [ON]\n  (Fitur Damage Weapon Wajib Active)",
-	"┏ Speed Players Flash [OFF]",
-	"┏ Damage Weapone For Speed Flash ON",
-    "┏ Speed UAZ",
-    "┏ Speed Dacia",	
-	"┏ Unlimited Bensin UAZ\n  (Jika Ganti UAZ, Active Kan Lagi)",
-	"┏ Flying UAZ-Jeep",
+    "┏◌ Speed Player Micro",
+    "┏◌ Speed Players Flash [ON]\n  (Fitur Damage Weapon Wajib Active)",
+	"┏◌ Speed Players Flash [OFF]",
+	"┏◌ Damage Weapone For Speed Flash ON",
+    "┏◌ Speed UAZ",
+    "┏◌ Speed Dacia",	
+	"┏◌ Unlimited Bensin UAZ\n  (Jika Ganti UAZ, Active Kan Lagi)",
+	"┏◌ Flying UAZ-Jeep",
     "☑BACK"
   }, nil, "Speed Flash Wajib Koneksi Stabil")
 if MCSpeed == nil then
@@ -1741,8 +1754,8 @@ end
 
 function ViewInGame()
   MCView = gg.choice({
-    "┏ Wide View 30% [Game]",
-    "┏ Wide View 60% [Game]",
+    "┏◌ Wide View 30% [Game]",
+    "┏◌ Wide View 60% [Game]",
     "☑BACK"
   }, nil, "Mode View Players")
   if MCView == nil then
