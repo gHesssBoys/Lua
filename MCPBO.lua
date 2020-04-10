@@ -50,6 +50,7 @@ MENU = gg.multiChoice(
 "📁 Folder Body Collor",
 "📁 Folder Weapone Hack",
 "📁 Folder Player Hack",
+"📁 Folder ESP Players",
 "📁 Folder Antena Player",
 "📁 Folder Speed Hack",
 "📁 Folder Mode Views Hack",
@@ -61,10 +62,11 @@ if MENU [1] == true then WALLHACK() end
 if MENU [2] == true then COLLOR() end
 if MENU [3] == true then Weapon() end
 if MENU [4] == true then PlayerInGame() end
-if MENU [5] == true then AntenaInGame() end
-if MENU [6] == true then SpeedInGame() end
-if MENU [7] == true then ViewInGame() end
-if MENU [8] == true then exit()  end 
+if MENU [5] == true then esp() end
+if MENU [6] == true then AntenaInGame() end
+if MENU [7] == true then SpeedInGame() end
+if MENU [8] == true then ViewInGame() end
+if MENU [9] == true then exit()  end 
 end
 MCPBO = -1
 end
@@ -984,8 +986,6 @@ function Weapon()
 	"┏◌ HS 50% [Land]",
     "┏◌ HS 70% [Land]",
 	"┏◌ MB - HS Brutal [Land]",
-	"┏◌ Collab ESP-AIMLock [Land - Traine]",
-	"┏◌ ESP Players [Land - Traine]",
 	"┏◌ Damage++ [Game]",
     "┏◌ Menu HeadShot Beta [Land]",	
     "☑BACK"
@@ -999,11 +999,9 @@ if MCWeapon[4] == true then aimbot360()end
 if MCWeapon[5] == true then mbhs1()end
 if MCWeapon[6] == true then mbhs2()end
 if MCWeapon[7] == true then mbhs3()end
-if MCWeapon[8] == true then ESPAIM()end
-if MCWeapon[9] == true then ESP()end
-if MCWeapon[10] == true then Dmg()end
-if MCWeapon[11] == true then HSWepone()end
-if MCWeapon[12] == true then HOME()end
+if MCWeapon[8] == true then Dmg()end
+if MCWeapon[9] == true then HSWepone()end
+if MCWeapon[10] == true then HOME()end
 end
 end
 function lessrec()
@@ -1125,60 +1123,6 @@ gg.getResults(10)
 gg.editAll("280", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("MB - HEDSHOT (Brutal) Activated!!")
-end
-function ESPAIM()
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-476053504;-349478012:189", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-476053504", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("-476053503;-476053504", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("324009984;-348261320:165", 4, false, 536870912, 0, -1)
-  gg.searchNumber("324009984", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("324009985", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-336586203;-511702015:105", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-511702015", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-511633406;-352273285;-511633406:809", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-511633406", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("-335545007;-511702015:85", 4, false, 536870912, 0, -1)
-  gg.searchNumber("-511702015", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("2046820354;-336587221:9", 4, false, 536870912, 0, -1)
-  gg.searchNumber("2046820354", 4, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("2046820353", 4)
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.searchNumber("2015175168", 16, false, 536870912, 0, -1)
-  gg.getResults(7)
-  gg.editAll("0", 16)
-  gg.clearResults()
-  gg.toast("ESP AimLock Activated")
-end
-function ESP()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_DATA)
-  gg.searchNumber("720575962178125824", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2)
-  gg.editAll("720575961854115840", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("ESP Player Activated")
 end
 function Dmg()
   gg.clearResults()
@@ -1426,30 +1370,24 @@ function PlayerInGame()
   end
 end
 function SITSCOPEON()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.sleep(140)
-  gg.refineNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.sleep(140)
-  gg.refineNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-4767057191527907328", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("Sit Scope activated!")
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('-4767057191653227520', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('-4767057191653227520', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('-4767057191653227520', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1401)
+    gg.editAll('-4767057191527907328', gg.TYPE_QWORD)
+    gg.toast('Sit Scope Activated √')
+    gg.clearResults()
 end
 function SITSCOPEOFF()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("-4767057191527907328", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.sleep(140)
-  gg.refineNumber("-4767057191527907328", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.sleep(140)
-  gg.refineNumber("-4767057191527907328", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-4767057191653227520", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("Sit Scope Deactivated!")
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('-4767057191527907328', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('-4767057191527907328', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('-4767057191527907328', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1401)
+    gg.editAll('-4767057191653227520', gg.TYPE_QWORD)
+    gg.toast('Sit Scope Deactivated √')
+    gg.clearResults()
 end
 function FASTPARA()
   gg.clearResults()
@@ -1473,6 +1411,90 @@ function FASTLAND()
   gg.editAll("999999", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.toast("Fast Landing activated!")
+end
+
+  function esp()
+    espm = gg.multiChoice({
+      "┏◌ ESP Players [On]",
+      "┏◌ ESP Players [Off]",
+	  "┏◌ Collab ESP-AIMLock [Land - Traine]",
+      '🔙Back'
+    })
+    if espm == nil then
+    else
+      if espm[1] == true then
+        espon()
+      end
+      if espm[2] == true then
+        espoff()
+      end  
+      if espm[3] == true then
+        ESPAIM()
+      end
+      if espm[4] == true then
+        HOME()
+      end	  
+    end
+  end
+  function espon()
+    gg.setRanges(gg.REGION_C_DATA)
+    gg.searchNumber('-1,901,891,198,734,303,227', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1)
+    gg.editAll('-1,901,891,198,902,075,392', gg.TYPE_QWORD)
+    gg.toast('💿 ESP Player Activated √')
+    gg.clearResults()
+  end
+  function espoff()
+    gg.setRanges(gg.REGION_C_DATA)
+    gg.searchNumber('-1,901,891,198,902,075,392', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1)
+    gg.editAll('-1,901,891,198,734,303,227', gg.TYPE_QWORD)
+    gg.clearResults()
+  end
+function ESPAIM()
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("-476053504;-349478012:189", 4, false, 536870912, 0, -1)
+  gg.searchNumber("-476053504", 4, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("-476053503;-476053504", 4)
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("324009984;-348261320:165", 4, false, 536870912, 0, -1)
+  gg.searchNumber("324009984", 4, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("324009985", 4)
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("-336586203;-511702015:105", 4, false, 536870912, 0, -1)
+  gg.searchNumber("-511702015", 4, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("0", 4)
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("-511633406;-352273285;-511633406:809", 4, false, 536870912, 0, -1)
+  gg.searchNumber("-511633406", 4, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("0", 4)
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("-335545007;-511702015:85", 4, false, 536870912, 0, -1)
+  gg.searchNumber("-511702015", 4, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("0", 4)
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("2046820354;-336587221:9", 4, false, 536870912, 0, -1)
+  gg.searchNumber("2046820354", 4, false, 536870912, 0, -1)
+  gg.getResults(200)
+  gg.editAll("2046820353", 4)
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("2015175168", 16, false, 536870912, 0, -1)
+  gg.getResults(7)
+  gg.editAll("0", 16)
+  gg.clearResults()
+  gg.toast("ESP AimLock Activated")
 end
 
 function AntenaInGame()
@@ -1551,30 +1573,30 @@ gg.clearResults()
 gg.toast("Speed Micro Activated!!")
 end
 function flashon()	  
-gg.clearResults()
-SR(gg.REGION_C_DATA)
-gg.searchNumber("-1,296,744,149,883,614,555", TQ, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults(1337)
-gg.editAll(" -1,296,744,153,870,237,696", TQ)
-gg.clearResults()
-gg.searchNumber("-1,904,987,454,010,553,855", TQ, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults(1337)
-gg.editAll("-1,904,987,454,002,165,247", TQ)
-gg.clearResults()
-gg.toast("Speedhack on")
+    gg.setRanges(gg.REGION_C_DATA)
+    gg.searchNumber('-1,296,744,149,883,614,555', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll(' -1,296,744,153,870,237,696', gg.TYPE_QWORD)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_DATA)
+    gg.searchNumber('-1,904,987,454,010,553,855', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('-1,904,987,454,002,165,247', gg.TYPE_QWORD)
+    gg.toast('Speedhack On')
+    gg.clearResults()
  end
 function flashoff()
-gg.clearResults()
-gg.searchNumber(gg.REGION_C_DATA)
-gg.searchNumber("-1,296,744,153,870,237,696", TQ, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll(" -1,296,744,149,883,614,555", TQ)
-gg.clearResults()
-gg.searchNumber("-1,904,987,454,002,165,247", TQ, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("-1,904,987,454,010,553,855", TQ)
-gg.clearResults()
-gg.toast("Speedhack off")
+    gg.setRanges(gg.REGION_C_DATA)
+    gg.searchNumber('-1,296,744,153,870,237,696', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll(' -1,296,744,149,883,614,555', gg.TYPE_QWORD)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_DATA)
+    gg.searchNumber('-1,904,987,454,002,165,247', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('-1,904,987,454,010,553,855', gg.TYPE_QWORD)
+    gg.toast('Speedhack Off')
+    gg.clearResults()
 end
 function DamageFlashSpeed()
   gg.clearResults()
@@ -1756,6 +1778,7 @@ function ViewInGame()
   MCView = gg.choice({
     "┏◌ Wide View 30% [Game]",
     "┏◌ Wide View 60% [Game]",
+	"┏◌ BlackSky [Land]",
     "☑BACK"
   }, nil, "Mode View Players")
   if MCView == nil then
@@ -1767,6 +1790,9 @@ function ViewInGame()
       View60()
     end
     if MCView == 3 then
+      blacksky()
+    end	
+    if MCView == 4 then
       HOME()
     end
   end
@@ -1791,7 +1817,15 @@ function View60()
   gg.clearResults()
   gg.toast("Wide View 60% Activated")
 end
-
+function blacksky()
+ gg.setRanges(gg.REGION_BAD)
+ gg.searchNumber('100F;1F;1,008,981,770D:99', gg.TYPE_FLOAT, false)
+ gg.searchNumber('100', gg.TYPE_FLOAT, false)
+ gg.getResults(100)
+ gg.editAll('-90', gg.TYPE_FLOAT)
+ gg.toast('🌚 Black Sky Activated √')
+ gg.clearResults()
+end
 	  
 function exit() 
 gg.alert("👋😘 ➿➿ Bye - Bye MCPBO™ ➿➿ 👋😘")
