@@ -148,13 +148,13 @@ function SearchWrite(Search, Write, Type)
 end
 
 gg.alert([[
-📀 BYPASS MCPBO™ PUBG GLOBAL]])
+📀 BYPASS ONLY PUBG MOBILE - GLOBAL]])
 function Main()
   SN = gg.choice({
-    "✪ STEP 1 LOGIN MENU [MCPBO™]",
-    "✪ STEP 2 LOBBY [MCPBO™] ",
+    "🛠 STEP 1 LOGIN MENU [MCPBO™]",
+    "🛠 STEP 2 LOBBY [MCPBO™] ",
     "✪ EXIT"
-  }, nil, "⛔ ONLY PUBG GLOBAL - MCPBO™")
+  }, nil, "⛔ MCPBO™")
   if SN == 1 then
     a()
   end
