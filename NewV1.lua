@@ -4,14 +4,6 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
 -- Super Block sstool Test --
 while(nil)do;for i=i,i do;local i={}if(i.i)then;i.i=i.i(i)end;for ii=i.i,i.i,i.i do;local ii={}if(ii.i)then;ii.i=ii.i()end;for iii=i,ii.i,i do;local iii={}if(iii.i)then;iii.i=iii.i(i)end;for iiii=i,ii,iii.i do;local iiii={}if(iiii.i)then;iiii.i=iiii.i(i)end;local iiii={}if(iiii.i)then;iiii.i=(iiii|iii|ii|i)(i)end;end;local iii={}if(iii.i)then;iii.i=(true|iii|ii|i)(i)end;end;local ii={}if(ii.i)then;ii.i=(true|false|ii|i)(i)end;end;local i={}if(i.i)then;i.i=(true|false|nil|i)(i)end;return(true|false|nil)end;return;end
 
-if gg.PACKAGE  == 'com.bbksb.vdjw' then
-else
-gg.alert("Gunakan Game Guardian Versi ɢɢ MCPBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
- revo.goURL("https://t.me/gHesss_Boys")
-os.exit()
-while true do
-end
-end
 
 function jiuyan(qmnb,qmxg)gg.setVisible(false)gg.clearResults()qmnbv=qmnb[3]["value"]or qmnb[3][1]qmnbt=qmnb[3]["type"]or qmnb[3][2]qmnbn=qmnb[2]["name"]or qmnb[2][1]gg.setRanges(qmnb[1]["memory"]or qmnb[1][1])gg.searchNumber(qmnbv,qmnbt)gg.refineNumber(qmnbv,qmnbt)sz=gg.getResultCount()if sz==0 then gg.toast(qmnbn.."rrc hack")else sl=gg.getResults(999999)for i=1,sz do pdsz=true for v=4,#qmnb do if pdsz==true then pysz={{}}pysz[1].address=sl[i].address+(qmnb[v]["offset"]or qmnb[v][2])pysz[1].flags=qmnb[v]["type"]or qmnb[v][3]szpy=gg.getValues(pysz)tzszpd=tostring(qmnb[v]["lv"]or qmnb[v][1]):gsub(",","")pyszpd=tostring(szpy[1].value):gsub(",","")if tzszpd==pyszpd then pdjg=true pdsz=true else pdjg=false pdsz=false end end end if pdjg==true then szpy=sl[i].address for x=1,#qmxg do xgsz=qmxg[x]["value"]or qmxg[x][1]xgpy=szpy+(qmxg[x]["offset"]or qmxg[x][2])xglx=qmxg[x]["type"]or qmxg[x][3]xgdj=qmxg[x]["freeze"]or qmxg[x][4]xg={{address=xgpy,flags=xglx,value=xgsz}}if xgdj==true then xg[1].freeze=xgdj gg.addListItems(xg)else gg.setValues(xg)end end xgjg=true end end if xgjg==true then gg.toast(qmnbn.."Memodifikasi total 1 data")else gg.toast(qmnbn.."Failed")end end end
 function split(szFullString, szSeparator)
@@ -147,14 +139,13 @@ function SearchWrite(Search, Write, Type)
     end
 end
 
-gg.alert([[
-📀 BYPASS ONLY PUBG MOBILE - GLOBAL]])
+gg.alert([[MetroCheat_PBO™]])
 function Main()
   SN = gg.choice({
     "🛠 STEP 1 LOGIN MENU [MCPBO™]",
     "🛠 STEP 2 LOBBY [MCPBO™] ",
-    "✪ EXIT"
-  }, nil, "⛔ MCPBO™")
+    "⛔ ᴇxɪᴛ ⛔"
+  }, nil, "MCPBO™")
   if SN == 1 then
     a()
   end
@@ -164,7 +155,7 @@ function Main()
   if SN == 3 then
     c()
   end
-  BPMCPBO™ = -1
+  BPMCPBO = -1
 end
 
 function a()
@@ -388,11 +379,11 @@ end
 cs = "MCPBO™"
 while true do
   if gg.isVisible(true) then
-    BPMCPBO™ = 1
+    BPMCPBO = 1
     gg.setVisible(false)
   end
   gg.clearResults()
-  if BPMCPBO™ == 1 then
+  if BPMCPBO == 1 then
     Main()
   end
 end
