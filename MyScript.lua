@@ -10,8 +10,8 @@ while(nil)do;for i=i,i do;local i={}if(i.i)then;i.i=i.i(i)end;for ii=i.i,i.i,i.i
 PERTAMA = 1
 function PERTAMA()
 CROT = gg.multiChoice({
-"📁 Fitur MCPBO™ [SAFE]",
-"📁 Folder Menu All",
+"📁 Fitur For Admin MCPBO™ Only [SAFE]",
+"📁 Folder Menu All - For You",
 "⛔ ᴇxɪᴛ ⛔"
 }, nil, " MetroCheat_PBO™ ")
 if CROT == nil then
@@ -24,16 +24,21 @@ MCPBO1 = -1
 end
 
 function ClickADM()
+gg.alert('Hayooo Ngapain,')
+gg.alert('Anda Admin MCPBO™...?')
 gg.alert([[
-Feature One Click SAFE\n
+Feature One Click For Admin
 
 1. Wallhack Exynos 8895
 2. Collor Yellow
 3. Less Recoil
 4. Aimlock
 5. HS 70%
-6. Views 60%\n
+6. Views 60%
 ]])
+ProgressBar =  "║░░░░░░░░░░░░░░░║";for x = 1,16,1 do gg.sleep(150) ProgressBar = ProgressBar:gsub("░","▓",1);gg.toast(ProgressBar) end gg.sleep(150) gg.toast("Load Sukses")
+Check_Login1 = gg.prompt({"⚠Enter Password⚠"},nil,{"000"}) or (function() while true do os.exit() end end)();Check_Login2 = Check_Login1[1] == "CCD" or (function() gg.alert("⚠ ERROR ⚠\n❎ Wrong Password ❎"); while true do PERTAMA() end end)() 
+
   A1()
   A2()
   A3()
