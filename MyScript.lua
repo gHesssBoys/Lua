@@ -4,17 +4,6 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
 -- Super Block sstool Test --
 while(nil)do;for i=i,i do;local i={}if(i.i)then;i.i=i.i(i)end;for ii=i.i,i.i,i.i do;local ii={}if(ii.i)then;ii.i=ii.i()end;for iii=i,ii.i,i do;local iii={}if(iii.i)then;iii.i=iii.i(i)end;for iiii=i,ii,iii.i do;local iiii={}if(iiii.i)then;iiii.i=iiii.i(i)end;local iiii={}if(iiii.i)then;iiii.i=(iiii|iii|ii|i)(i)end;end;local iii={}if(iii.i)then;iii.i=(true|iii|ii|i)(i)end;end;local ii={}if(ii.i)then;ii.i=(true|false|ii|i)(i)end;end;local i={}if(i.i)then;i.i=(true|false|nil|i)(i)end;return(true|false|nil)end;return;end
 ------------------------------------------------------------------------- 
-if gg.PACKAGE  == 'com.bbksb.vdjw' then
-else
-gg.alert("Gunakan Game Guardian Versi ɢɢ MCPBO™ untuk Menjalankan Script Ini\nUse My Game Guardian To Run Script", "[•] Download")
- revo.goURL("https://t.me/gHesss_Boys")
-os.exit()
-while true do
-end
-end
-------------------------------------------------------------------------- 
-ProgressBar =  "║░░░░░░░░░░░░░░░║";for x = 1,16,1 do gg.sleep(150) ProgressBar = ProgressBar:gsub("░","▓",1);gg.toast(ProgressBar) end gg.sleep(150) gg.toast("Load Sukses")
-Check_Login1 = gg.prompt({"⚠Enter Password⚠"},nil,{"000"}) or (function() while true do os.exit() end end)();Check_Login2 = Check_Login1[1] == "ACE" or (function() gg.alert("⚠ ERROR ⚠\n❎ Wrong Password ❎"); while true do os.exit() end end)() 
 -------------------------------------------------------------------------
 -- Type Your Script all code bellow . if script isnot renamed then script will run .
 -------------------------------------------------------------------------
