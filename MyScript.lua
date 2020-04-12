@@ -25,15 +25,15 @@ end
 
 function ClickADM()
 gg.alert([[
-Feature One Click SAFE
-====================
+Feature One Click SAFE\n
+
 1. Wallhack Exynos 8895
 2. Collor Yellow
 3. Less Recoil
 4. Aimlock
 5. HS 70%
-6. Views 60%
-====================]])
+6. Views 60%\n
+]])
   A1()
   A2()
   A3()
