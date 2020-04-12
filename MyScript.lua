@@ -1925,7 +1925,7 @@ function BsKy()
 end
  
 function FixEjakulasi()
-  gg.alert("ActiveKan Setiap Di Landing Dan In Game Pertengahan")
+  gg.alert("ActiveKan Di Game Pertengahan/Sisa Hidup 30-20")
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("1954047316;1970037078", 4, false, 536870912, 0, -1)
