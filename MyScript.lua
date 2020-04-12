@@ -40,13 +40,12 @@ Feature One Click SAFE
   A4()
   A5()
   A6()
+gg.alert('ALL ᴀᴄᴛɪᴠᴀᴛᴇᴅ!')	
 end
 
 function A1()
--- main code
 gg.searchNumber('"2.5371349e-39;1.793662e-43;1.1210388e-44;0.5;0.5:273"', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber('"0.5"', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
 revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
 local t = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
 for i, v in ipairs(t) do
@@ -57,7 +56,6 @@ for i, v in ipairs(t) do
 end
 gg.addListItems(t)
 t = nil
-gg.toast("Wallhack Exynos 8895")
 end
 function A2()
   gg.clearResults()
@@ -66,7 +64,6 @@ function A2()
   gg.refineNumber("40", 4, false, 536870912, 0, -1)
   gg.getResults(4)
   gg.editAll("36", 4)
-  gg.toast("Exynos Yelow Active ")
 end
 function A3()
 gg.clearResults()
