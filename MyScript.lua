@@ -12,15 +12,13 @@ function PERTAMA()
 CROT = gg.multiChoice({
 "📁 Fitur For Admin MCPBO™ Only [SAFE]",
 "📁 Folder Menu All - For You",
-"🛠 Fix 10 Minutes [V1]", 
 "⛔ ᴇxɪᴛ ⛔"
 }, nil, " MetroCheat_PBO™ ")
 if CROT == nil then
 else
 if CROT [1] == true then ClickADM() end
 if CROT [2] == true then HOME() end
-if CROT [3] == true then FixEjakulasi() end
-if CROT [4] == true then exit()  end 
+if CROT [3] == true then exit()  end 
 end
 MCPBO1 = -1
 end
@@ -1923,25 +1921,7 @@ function BsKy()
   gg.clearResults()
   gg.toast("Black Sky Active")
 end
- 
-function FixEjakulasi()
-  gg.alert("ActiveKan Di Game Pertengahan/Sisa Hidup 30-20")
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1954047316;1970037078", 4, false, 536870912, 0, -1)
-  gg.searchNumber("1954047316;1970037078", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("9", 4)
-  gg.clearResults()
-  gg.toast("Antiban 10 Min V1 activated!")
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1232364871;1231974243", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1232364871;1231974243", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("0", gg.TYPE_DWORD)
-  gg.clearResults()
-end  
+
 
 function exit() 
 gg.alert("👋😘 ➿➿ Bye - Bye MCPBO™ ➿➿ 👋😘")
